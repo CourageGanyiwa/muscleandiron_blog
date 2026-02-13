@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import whatsapp_logo from "../assets/whatsapp-icon.png";
-import dumbell from "../assets/dumbell.jpeg";
+import coresupplements_logo from "../assets/coresupplements_logo.png";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
@@ -25,7 +25,11 @@ export default function Footer() {
               <FaFacebookF className="text-black" />
             </a>
             <a href="#">
-              <img src={dumbell} alt="" className="w-10 h-10" />
+              <img
+                src={coresupplements_logo}
+                alt="Coresupplements Logo"
+                className="w-10 h-10"
+              />
             </a>
             <a href="https://chat.whatsapp.com/H0gEL7aHACyEipBc03AVt3">
               <img src={whatsapp_logo} className="w-5 h-5" alt="WhatsApp" />
