@@ -1,9 +1,9 @@
-import BlogList from "./BlogList.jsx";
+import Bloglist from "./Bloglist.jsx";
 
 const Section = () => {
   return (
     <div className="w-full ">
-      <BlogList />
+      <Bloglist />
     </div>
   );
 };
