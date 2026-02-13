@@ -6,7 +6,10 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "Supplements", path: "https://coresupplements.online" },
-    { name: "Contact", path: "/" },
+    {
+      name: <img src={whatsapp_logo} className="w-5 h-5" alt="WhatsApp" />,
+      path: "https://chat.whatsapp.com/H0gEL7aHACyEipBc03AVt3",
+    },
     { name: "About", path: "/" },
   ];
 
@@ -48,13 +51,6 @@ const Navbar = () => {
               />
             </a>
           ))}
-          <button
-            className={`px-4 py-1 text-sm font-light rounded-full cursor-pointer ${isScrolled ? "text-black" : "text-white"} transition-all`}
-          >
-            <a href="https://chat.whatsapp.com/H0gEL7aHACyEipBc03AVt3">
-              <img src={whatsapp_logo} className="w-5 h-5" alt="WhatsApp" />
-            </a>
-          </button>
         </div>
 
         {/* Desktop Right */}
