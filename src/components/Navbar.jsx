@@ -5,7 +5,7 @@ import whatsapp_logo from "../assets/whatsapp-icon.png";
 const Navbar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Products", path: "https://coresupplements.online" },
+    { name: "Supplements", path: "https://coresupplements.online" },
     { name: "Contact", path: "/" },
     { name: "About", path: "/" },
   ];
