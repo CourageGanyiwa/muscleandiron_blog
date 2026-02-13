@@ -13,7 +13,7 @@ const Bloglist = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:8000/blogger/posts")
+    fetch("https://muscleandiron-blog-backend.vercel.app/blogger/posts")
       .then((res) => res.json())
       .then((data) => {
         setBlogs(data);
