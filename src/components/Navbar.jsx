@@ -51,7 +51,9 @@ const Navbar = () => {
           <button
             className={`px-4 py-1 text-sm font-light rounded-full cursor-pointer ${isScrolled ? "text-black" : "text-white"} transition-all`}
           >
-            <img src={whatsapp_logo} className="w-5 h-5" alt="" />
+            <a href="https://chat.whatsapp.com/H0gEL7aHACyEipBc03AVt3">
+              <img src={whatsapp_logo} className="w-5 h-5" alt="WhatsApp" />
+            </a>
           </button>
         </div>
 
@@ -117,7 +119,9 @@ const Navbar = () => {
           ))}
 
           <button className="px-4 py-1 text-sm font-light rounded-full cursor-pointer transition-all">
-            <img src={whatsapp_logo} className="w-5 h-5" alt="" />
+            <a href="https://chat.whatsapp.com/H0gEL7aHACyEipBc03AVt3">
+              <img src={whatsapp_logo} className="w-5 h-5" alt="" />
+            </a>
           </button>
 
           <button className="bg-black text-white px-8 py-2.5 rounded-full transition-all duration-500">
