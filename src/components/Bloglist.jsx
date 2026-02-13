@@ -42,8 +42,8 @@ const Bloglist = () => {
           </div>
           <div>
             <h1 className="text-2xl md:text-4xl font-bold text-center py-4">
-              Welcome to the{" "}
-              <span className="text-indigo-500 py-5">Muscle N' Iron</span> Blog
+              The <span className="text-indigo-500 py-5">Muscle N' Iron</span>{" "}
+              Blog
             </h1>
           </div>
           <div className="grid grid-col-1 md:grid-cols-3 lg:grid-cols-4 w-full gap-5 p-2 justify-center">
