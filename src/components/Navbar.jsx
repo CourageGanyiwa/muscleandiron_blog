@@ -116,8 +116,8 @@ const Navbar = () => {
             </a>
           ))}
 
-          <button className="border px-4 py-1 text-sm font-light rounded-full cursor-pointer transition-all">
-            New Launch
+          <button className="px-4 py-1 text-sm font-light rounded-full cursor-pointer transition-all">
+            <img src={whatsapp_logo} className="w-5 h-5" alt="" />
           </button>
 
           <button className="bg-black text-white px-8 py-2.5 rounded-full transition-all duration-500">

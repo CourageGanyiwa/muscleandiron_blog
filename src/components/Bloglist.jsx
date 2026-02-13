@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import loadingImg from "../assets/boxing_fitness.jpg";
+import loadingImg from "../assets/boxing_fitness.webp";
 import Card from "./Card.jsx";
 
 const Bloglist = () => {

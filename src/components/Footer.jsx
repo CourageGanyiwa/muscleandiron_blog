@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import whatsapp_logo from "../assets/whatsapp-icon.png";
 
 export default function Footer() {
   return (
@@ -53,21 +54,7 @@ export default function Footer() {
               </svg>
             </a>
             <a href="#">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M13.333 6.667a5 5 0 0 1 5 5V17.5H15v-5.833a1.667 1.667 0 0 0-3.334 0V17.5H8.333v-5.833a5 5 0 0 1 5-5M5 7.5H1.667v10H5zM3.333 5a1.667 1.667 0 1 0 0-3.333 1.667 1.667 0 0 0 0 3.333"
-                  stroke="#2563EB"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
+              <img src={whatsapp_logo} className="w-5 h-5" alt="" />
             </a>
           </div>
         </div>
