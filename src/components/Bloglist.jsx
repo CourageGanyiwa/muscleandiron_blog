@@ -37,7 +37,7 @@ const Bloglist = () => {
             <img
               src={loadingImg}
               alt="Loading..."
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover py-2"
             />
           </div>
           <div>

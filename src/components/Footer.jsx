@@ -24,7 +24,7 @@ export default function Footer() {
             <a href="#">
               <FaFacebookF className="text-black" />
             </a>
-            <a href="#">
+            <a href="https://coresupplements.online">
               <img
                 src={coresupplements_logo}
                 alt="Coresupplements Logo"
