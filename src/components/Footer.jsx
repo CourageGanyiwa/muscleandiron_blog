@@ -17,8 +17,8 @@ export default function Footer() {
             <img src={logo} className="h-10 w-10 rounded" />
           </a>
           <p className="mt-6 text-sm text-gray-500">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been.
+            MuscleAndIron, Fitness made simple. Workouts, tips & inspiration for
+            real results. Join the journey, get stronger.
           </p>
           <div className="flex items-center gap-2 mt-3">
             <a href="#">
