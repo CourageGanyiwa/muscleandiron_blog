@@ -28,8 +28,12 @@ const Bloglist = () => {
   return (
     <div>
       {isLoading ? (
-        <div>
-          <p>Loading....</p>
+        <div className="min-h-[60vh] flex items-center justify-center px-4 py-10">
+          <div className="rounded-3xl border border-slate-200 bg-white/90 px-8 py-6 text-center shadow-xl">
+            <p className="text-lg font-semibold tracking-wide text-slate-700">
+              Loading...
+            </p>
+          </div>
         </div>
       ) : (
         <>
