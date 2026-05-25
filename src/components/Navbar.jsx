@@ -9,7 +9,6 @@ const Navbar = () => {
     {
       name: <img src={whatsapp_logo} className="w-5 h-5" alt="WhatsApp" />,
       path: "https://chat.whatsapp.com/H0gEL7aHACyEipBc03AVt3",
-      s,
     },
     { name: "About", path: "/" },
   ];
